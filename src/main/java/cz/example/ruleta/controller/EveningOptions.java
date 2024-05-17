@@ -10,7 +10,8 @@ public enum EveningOptions {
     TO_EXERCISE("Zacvičit si."),
     PLAY_NINTENDO("Zahrát si na Nintendu."),
     TO_TALK("Povídat si."),
-    GLASS_WINE("Dát si víno.");
+    GLASS_WINE("Dát si víno."),
+    GAME_CARCASONE("Carcasone");
     private final String description;
 
     EveningOptions(String description) {
