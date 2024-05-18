@@ -12,12 +12,12 @@ public class MainController {
 
     @GetMapping("/")
     public ModelAndView hraRuleta() {
-
         int selectedOptionIndex = random.nextInt(EveningOptions.values().length);
+        EveningOptions selectedOption = EveningOptions.values()[selectedOptionIndex];
 
         ModelAndView result = new ModelAndView("ruleta");
-        result.addObject("moznost", selectedOptionIndex);
+        result.addObject("moznost", selectedOption.getDescription());
+        result.addObject("index", selectedOptionIndex);
         return result;
-
     }
 }
