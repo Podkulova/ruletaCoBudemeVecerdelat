@@ -19,6 +19,6 @@
     </div>
     <button id="spinButton" class="spinButton">Roztočit</button> <!-- Tlačítko pro spuštění animace -->
 </div>
-<script src="js/script.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>

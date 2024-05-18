@@ -39,6 +39,9 @@ body {
     padding: 20px;
     border-radius: 5px; /* Kulaté rohy */
 }
+button:hover {
+    background-color: mediumpurple; /* Podbarvení tlačítka při najetí myší */
+}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
