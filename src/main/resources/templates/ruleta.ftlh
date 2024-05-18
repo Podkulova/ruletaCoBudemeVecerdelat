@@ -17,7 +17,7 @@
     <div class="roulette-container">
         <img id="ruleta" class="ruleta" src="/images/ruleta-${index}.svg"/>
     </div>
-    <button id="spinButton">Roztočit</button> <!-- Tlačítko pro spuštění animace -->
+    <button id="spinButton" class="spinButton">Roztočit</button> <!-- Tlačítko pro spuštění animace -->
 </div>
 <script src="js/script.js"></script>
 </body>
